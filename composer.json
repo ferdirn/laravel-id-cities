@@ -1,0 +1,37 @@
+{
+	"name" : "ferdirn/laravel-id-cities",
+	"description" : "Laravel ID Cities is a package for Laravel to supply all cities data to table cities. Start from data cities in Indonesia.",
+	"type" : "laravel-package",
+	"authors" : [{
+			"name" : "Ferdi Ramdhon",
+			"email" : "ferdirn@gmail.com",
+			"homepage" : "https://github.com/ferdirn",
+			"role" : "developer"
+		}
+	],
+	"keywords" : [
+		"laravel",
+		"cities",
+		"Indonesia"
+	],
+	"homepage" : "https://github.com/ferdirn/laravel-id-cities",
+	"license" : [
+		"MIT"
+	],
+	"require" : {
+		"php" : ">=5.3.0"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Ferdirn\\Cities" : "src/"
+		},
+		"classmap" : [
+			"src/commands"
+		]
+	},
+	"minimum-stability" : "dev",
+	"support" : {
+		"source" : "https://github.com/ferdirn/laravel-id-cities",
+		"issues" : "https://github.com/ferdirn/laravel-id-cities/issues"
+	}
+}
